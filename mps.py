@@ -23,7 +23,7 @@ def extract_frames(video_path, frames_dir):
     else:
         print(f"Frames extracted to: {frames_dir}")
 
-def enhance_frames(frames_dir, output_dir, model_name="realesr-general-x4v3", outscale=2, face_enhance=True):
+def enhance_frames(frames_dir, output_dir, model_name="realesr-general-x4v3", outscale=2, face_enhance=False):
     """Enhance frames using Real-ESRGAN via inference_realesrgan.py."""
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir, ignore_errors=True)
