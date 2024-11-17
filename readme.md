@@ -4,7 +4,7 @@ To enhance a video, follow these steps:
 
 1. **Set Up Your Environment**
 
-    Ensure your environment is set up by running the `install.ipynb` notebook or manually following the setup steps above.
+    Ensure your environment is set up by running the `install.ipynb` notebook or manually following the setup steps above. Use the replacement files to replace the appropriate files in the newly downloaded directory
 
 2. **Run the Enhancement Script**
 
